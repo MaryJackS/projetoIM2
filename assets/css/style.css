@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(231, 236, 231, 0.795);
+}
+p{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mensagem{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+
+}
+textarea{
+    width: 400px;
+    border: 6px solid transparent;
+    border-image: linear-gradient(to right, green, lightgreen);
+    border-image-slice: 1;
+    padding: 25px;
+}
+.container{
+    width: 800px;
+    border: 9px solid transparent;
+    border-image: linear-gradient(to right, green, lightgreen);
+    border-image-slice: 1;
+    padding: 25px;
+}
+.operacao,.algoritimo, #inc{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+label{
+    margin-right: 2%;
+}
+.posicao{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+#botao{
+    margin-right: 1%;
+}
+
+
+

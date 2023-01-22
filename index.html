@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <title>Base64 e Cifra de César</title>
+</head>
+<body>
+
+    <div class="container">
+        <p>Você pode codificar e decodificar um texto em <br>base 64 ou Cifra de César, 
+           <br> podendo escolher qualquer número como incremento.</p>
+        <div class="mensagem">
+            
+            <textarea name="" id="texto" cols="30" rows="10"></textarea>
+
+        </div>
+        <div class="controle">
+            <div class="operacao">
+                <input type="radio" id="codificar"  name="operacao" value="Codificar">
+                <label for="codificar">Codificar</label>
+                <input type="radio" id="decodificar" name="operacao" value="Decodificar">
+                <label for="decodificar">Decodificar</label>
+            </div>
+            <div class="algoritimo">
+                <select name="" id="algoritimo">
+                    <option value="" selected disabled>selecione a opção</option>
+                    <option value="base64">base64</option>
+                    <option value="cifra">cifra de cêsar</option>
+                </select>
+            <div id="inc">
+               <input type="range" name="" id="incremento" min="1" max="25">
+               <span id="valorIncremento">VALOR</span>
+            </div>
+            </div>
+            <div class="posicao">
+            <button id="botao"  >Resultado</button>
+            
+            <input type="text" name="" id="resultado">
+            </div>
+        </div>
+    </div>
+    
+
+
+     
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
